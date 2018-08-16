@@ -1,0 +1,204 @@
+.footer-main {
+  //border-top: 6px solid @brand-primary;
+  background: #f1efe9;
+  color: @brand-primary;
+  margin-top: 75px;
+  .column--headline {
+    font-weight: 700;
+    color: @brand-primary;
+    text-transform: uppercase;
+    &:after {
+      color: @brand-primary;
+    }
+  }
+  .navigation--link {
+    color: @brand-primary;
+    &:hover {
+      color: @bp-action;
+    }
+  }
+  .container {
+    background: none;
+  }
+  .footer--columns {
+    padding: 0;
+    border: none;
+  }
+  .footer--column {
+    border: none;
+    padding: 0 15px;
+  }
+  .footer--phone-link {
+    color: @brand-primary;
+  }
+  .newsletter-block {
+    background: #f2f2f2;
+    padding: 15px 0;
+    margin-top: 20px;
+    .container {
+      padding: 0 15px;
+      .footer-headline {
+        float: left;
+        width: 100%;
+        .headline {
+          font-size: 16px;
+          font-weight: 700;
+          padding-bottom: 3px;
+          border-bottom: 1px solid #4e4e4e;
+          width: 100%;
+        }
+        .headline-info-desc {
+          border-top: 1px solid #f2f2f2;
+          width: 100%;
+          padding-top: 3px;
+        }
+      }
+      .email-message {
+        float: left;
+        width: 100%;
+        .newsletter--form {
+           padding: 16px 0;
+           .newsletter--field {
+             padding: 15px 10px 15px 10px;
+             width: 100%;
+             border-radius: 3px;
+           }
+           .newsletter--button {
+             background: @brand-primary;
+             padding: 8px 5px 9px 5px;
+             width: 100%;
+             margin-top: 10px;
+             border-radius: 3px;
+             &:hover,
+             &:focus {
+               opacity: 0.8;
+             }
+           }
+         }
+      }
+    }
+  }
+  .socialList {
+    list-style: none;
+    li {
+      a {
+        font-size: 22px;
+        border-radius: 50%;
+        float: left;
+        display: block;
+        background: @brand-primary;
+        height: 38px;
+        width: 38px;
+        text-align: center;
+        color: @white;
+        line-height: 1.9;
+        margin: 0 10px 10px 0;
+        white-space: nowrap;
+        &:hover {
+          background: darken(@bp-action, 10%);
+        }
+      }
+    }
+  }
+
+  .paymentListFooter {
+    list-style: none;
+    li {
+      display: block;
+      float: left;
+      height: 38px;
+      margin-right: 6px;
+      margin-top: 6px;
+      border-radius: 3px;
+      text-align: center;
+      i {
+        font-size: 43px;
+        text-align: center;
+        color: @brand-primary;
+      }
+      &.textStyle {
+        background: @white;
+        padding: 5px 10px;
+        text-transform: uppercase;
+        height: 38px;
+        line-height: 14px;
+        .skonto {
+          color: @brand-primary;
+          font-size: 12px;
+        }
+        color: red;
+        &.rechnung {
+          line-height: 31px;
+        }
+      }
+    }
+  }
+  .deliveryListFooter {
+    list-style: none;
+    li {
+      display: block;
+      float: left;
+      margin-right: 6px;
+    }
+  }
+  .footer--bottom {
+    padding: 15px 15px 4px 15px;
+    .footer--bottom-column {
+      width: 50%;
+      text-align: left;
+      .vat-info--text-copy {
+        font-size: 12px;
+        font-weight: 700;
+        margin: 0;
+      }
+    }
+    .vat-info--text {
+      text-align: right;
+      margin: 0;
+      a {
+        &:hover {
+          color: @bp-action;
+        }
+      }
+    }
+  }
+  .column--content {
+    .icon {
+      width: 44px;
+      height: 44px;
+      line-height: 44px;
+      border-radius: 22px;
+      float: left;
+      color: @white;
+      background: @brand-primary;
+      font-size: 28px;
+      &.icon--phone {
+        text-indent: 7px;
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+      }
+      &.grey {
+        font-size: 16px;
+        text-align: center;
+      }
+    }
+    .column--desc {
+      padding-left: 64px;
+      padding-top: 10px;
+      color: @brand-primary;
+      a {
+        font-size: 18px;
+        font-weight: 700;
+        &:hover {
+          color: @bp-action;
+        }
+      }
+    }
+  }
+}
+.mm-widget {
+  margin-top: 30px;
+}
+

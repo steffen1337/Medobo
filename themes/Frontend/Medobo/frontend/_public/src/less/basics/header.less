@@ -1,0 +1,220 @@
+header {
+  &.header-main {
+    background: @grey95;
+    .container {
+      background: @grey95;
+    }
+    .header--navigation {
+      padding: 50px 0;
+    }
+    .top-bar {
+      background: #FFCC80;
+      margin: 0;
+      .container {
+        background: #FFCC80;
+      }
+      .top-bar--navigation {
+        .navigation--entry {
+          padding: 0;
+          &.entry--compare {
+            font-size: 14px;
+            color: @white;
+            padding-right: 35px;
+            .compare--quantity {
+              color: @bp-action;
+            }
+          }
+        }
+      }
+      .information--topbar-wrapper {
+        li {
+          float: left;
+          list-style: none;
+          color: @white;
+          margin-right: 20px;
+          .topbar-phone {
+            color: @white;
+            &:hover {
+              color: @bp-action;
+            }
+          }
+          .information--topbar-desc {
+            font-size: 14px;
+            margin-left: 10px;
+          }
+          &.topbar-phone {
+            &:hover {
+              color: @bp-action;
+            }
+          }
+        }
+      }
+      .navigation--entry {
+        .service--link {
+          &:hover {
+            color: @bp-action;
+          }
+        }
+        &.has--drop-down {
+          font-size: 14px;
+          color: @white;
+          &:hover {
+            color: @bp-action;
+          }
+        }
+      }
+    }
+  }
+  .logo-main {
+    width: auto !important;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    -moz-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    z-index: 3;
+    .logo--shop {
+      width: 100% !important;
+    }
+  }
+  .shop--navigation {
+    width: 100% !important;
+    float: right;
+    .navigation--list {
+      .navigation--entry {
+        &.entry--notepad,
+        &.entry--account {
+          border-radius: 0;
+          border-right: 1px solid #d9d9d9;
+          padding: 0 15px;
+          text-align: center;
+          margin: 0 auto;
+          position: relative;
+        }
+        &.entry--cart {
+          padding: 10px 0 10px 15px;
+          text-align: center;
+        }
+        .btn {
+          border: none;
+          background: @grey95;
+          padding: 0 10px;
+        }
+        .lnr-heart {
+          &:hover {
+            color: @main-red !important;
+          }
+        }
+          .lnr-heart,
+          .lnr-user,
+          .lnr-magnifier,
+          .lnr-cart,
+          .lnr-menu {
+            font-size: 26px;
+            vertical-align: middle;
+            display: block;
+            color: #333333;
+          }
+          .lnr-menu {
+            padding-top: 8px;
+          }
+          .entry--notepad {
+            padding: 0 15px;
+          }
+         .btn-main {
+           color: @brand-primary;
+           &:hover {
+             color: @bp-action;
+           }
+         }
+        }
+      }
+    .navigation--list {
+      .entry--account {
+        .account--link {
+          padding-left: 0;
+        }
+      }
+      .entry--cart {
+        .is--icon-left {
+          &.cart--link {
+            padding-left: 0;
+          }
+        }
+      }
+      .main-search--field {
+        border-radius: 3px;
+      }
+    }
+  }
+}
+.navigation-main {
+  background: #f1efe9;
+  border-bottom: none;
+  .navigation--link {
+    &.is--active {
+      background: #f1efe9;
+      color: @bp-action;
+    }
+    &.is--first,
+    .active {
+      background: #f1efe9;
+      &:hover {
+        background: #f1efe9;
+        color: @bp-action;
+      }
+    }
+  }
+  .navigation--entry {
+    margin-left: 20px;
+    &:last-child {
+      background: @main-red;
+     span {
+       color: @white;
+     }
+      &:after {
+        .advanced-menu {
+          display: none;
+        }
+      }
+    }
+    &.is--hovered {
+      .navigation--link {
+        &:hover,
+        &:visited,
+        &:focus {
+          background: @bp-action;
+        }
+      }
+    }
+  }
+  .navigation--list {
+    text-align: center;
+    .navigation--link {
+      border-radius: 0;
+      letter-spacing: 1px;
+      .fa-home {
+        font-size: 18px;
+        color: @brand-primary;
+        &:hover {
+          background: #f1efe9;
+          color: @bp-action;
+        }
+      }
+    }
+  }
+  .advanced-menu {
+    max-width: 1400px;
+    .button-container {
+      display: none;
+    }
+    .item--level-0 {
+      padding-bottom: 15px;
+    }
+  }
+  .container {
+    background: #f1efe9;
+  }
+}

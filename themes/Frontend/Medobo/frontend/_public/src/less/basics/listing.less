@@ -1,0 +1,87 @@
+.is--ctl-listing {
+  .product-slider {
+    .product--box {
+      .box--content {
+        &:hover {
+          opacity: 0.6;
+        }
+        .product--info {
+          .product--title {
+            text-align: left;
+            font-weight: 700;
+            font-size: 16px;
+            margin: 0;
+          }
+          .product--price-info {
+            .price--unit {
+              text-align: left;
+              border-bottom: 1px solid #dadada;
+              padding-bottom: 25px;
+              font-size: 12px;
+              color: @medium-gray;
+              &.is--bold {
+                color: @dim-gray;
+              }
+            }
+            .product--price {
+              text-align: right;
+              margin-top: 10px;
+              .price--default {
+                font-size: 21px;
+                color: @bp-action;
+              }
+              .price--pseudo {
+                float: left;
+                .price--discount {
+                  color: @dark-gray;
+                  font-size: 16px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .listing--wrapper {
+    .listing--container {
+      .product--box {
+        .box--content {
+          &:hover {
+            opacity: 1;
+            .product--info {
+              .product--price-info {
+                .product--price {
+                  .price--default {
+                    color: @bp-action;
+                  }
+                }
+              }
+            }
+          }
+          .product--info {
+            .product--title {
+              margin: 0;
+              height: 45px;
+            }
+            .product--price-info {
+              .price--unit {
+                font-size: 12px;
+                color: @medium-gray;
+              }
+              .product--price-outer {
+                height: 25px;
+              }
+              .product--price {
+                .price--default {
+                  font-size: 21px;
+                  color: @brand-primary;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

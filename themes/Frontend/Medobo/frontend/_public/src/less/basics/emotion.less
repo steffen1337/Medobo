@@ -1,0 +1,125 @@
+.is--ctl-index {
+  .content-main,
+  .emotion--container {
+    background: #f2f2f2;
+    box-shadow: none;
+    .content-main--inner {
+      padding: 0 0 50px 0;
+      .content--home {
+        margin: 0;
+      }
+    }
+  }
+  .emotion--wrapper {
+    &.container {
+      background: #f2f2f2;
+    }
+  }
+  //customer-service
+  .customer-service {
+   position: relative;
+    top: 50px;
+    padding: 60px 15px;
+    background: #ffffff url(../../img/patter_banner.png) 50% repeat;
+    font-size: 16px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    .headline-help {
+      color: @medium-black;
+      font-size: 26px;
+      font-weight: 700;
+      margin: 0;
+      padding-bottom: 20px;
+    }
+    a {
+      color: @brand-primary;
+      font-size: 21px;
+      white-space: nowrap;
+      &:hover,
+      &:focus {
+        color: @bp-action;
+      }
+      img {
+        margin-right: 15px;
+        position: relative;
+        top: -2px;
+        float: left;
+        width: 15%;
+      }
+    }
+  } // Topseller - Slider
+  .emotion--product-slider {
+    .box--emotion {
+      .product--details {
+        .product--title {
+          text-align: left;
+          font-weight: 700;
+          font-size: 16px;
+        }
+        .product--price-info {
+          .price--unit {
+            text-align: left;
+            border-bottom: 1px solid #dadada;
+            padding-bottom: 25px;
+            font-size: 12px;
+            color: @medium-gray;
+            &.is--bold {
+              color: @dim-gray;
+            }
+          }
+          .product--price {
+            text-align: right;
+            margin-top: 10px;
+            .price--default {
+              font-size: 18px;
+              color: @bp-action;
+            }
+            .price--pseudo {
+              float: left;
+              .price--discount {
+                color: @dark-gray;
+                font-size: 16px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .column-info-wrapper {
+    .column-info {
+      padding: 15px;
+    }
+  }
+}
+.banner {
+  .image {
+    position: relative;
+    width: 100%; /* for IE 6 */
+  }
+  .banner-text {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    padding: 30px;
+    h1 {
+      color: @white;
+      margin: 0;
+    }
+    p {
+      color: @white;
+      font-size: 16px;
+    }
+  }
+}
+
